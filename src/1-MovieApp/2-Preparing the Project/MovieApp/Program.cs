@@ -15,6 +15,11 @@ namespace MovieApp
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
+            global::System.Windows.Forms.MessageBox.Show("Hello World");
+
+
+
+
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
